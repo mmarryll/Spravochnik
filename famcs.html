@@ -11,7 +11,23 @@
     </header>
     <body link="#800080" vlink="#283E36" alink="#204638" bgcolor="#9BD5C0">
       <p class="tools">
-        <a href="startpage.html">Изменить</a>
+        <div id="editwin" class="modal">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h3 class="htitle">Окно редактирования</h3>
+                      <a href="#close" title="Close" class="close">&#10005</a>
+                  </div>
+                  <div class="modal-body">
+                      <h4>Выберете операцию редактирования, которую хотите применить:</h4>
+                      <button class="b1"><a href='#close' title="Close" class="close">Удалить</a></button>
+                      <button class="b1"><a href='#close' title="Close" class="close">Изменить</a></button>
+                      <button class="b1"><a href='#close' title="Close" class="close">Добавить</a></button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <a href="#editwin">Редактировать</a>
         <a href="index.html" class="exit">Выйти</a></p>
         <aside>
             <nav> 
